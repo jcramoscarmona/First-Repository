@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #1B244A;
+}
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border-width: 2px;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    text-align: center;
+    background-color: #080001;
+    margin-bottom: 15px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    width: 160px;
+    box-sizing: border-box;
+    
+}
+
+.button-row {
+    display: flex;
+    width: 160px;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.button-row button {
+    flex: 1;
+    padding: 10px 0;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-section h3{
+    color: antiquewhite;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
